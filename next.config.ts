@@ -10,14 +10,21 @@ const nextConfig: NextConfig = {
         hostname: "localhost",
         port: "3000",
         pathname: "/**",
-        search: ""
+        search: "",
       },
       {
         protocol: "http",
         hostname: "localhost",
         port: "3000",
         pathname: "/**",
-        search: ""
+        search: "",
+      },
+      {
+        protocol: "https",
+        hostname: "theblog.felipemarquesdesign.com",
+        port: "",
+        pathname: "/**",
+        search: "",
       },
     ],
   },
